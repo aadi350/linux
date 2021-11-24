@@ -1,2 +1,2 @@
-# linux
-All configuration for linux
+# Linux configuration
+Main branch is meant to mirror structure of home directory
