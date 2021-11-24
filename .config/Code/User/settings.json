@@ -1,0 +1,34 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Night Wolf [black] (No Italics)",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "explorer.confirmDelete": false,
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml"
+    },
+    "workbench.colorCustomizations": {
+        "editorLineNumber.foreground": "#555555",
+        "editorLineNumber.activeForeground": "#00FF00"
+    },
+    "editor.lineNumbers": "relative",
+    "keyboard.dispatch": "keyCode",
+    "editor.tokenColorCustomizations": {
+        "comments":"#888888"
+    },
+    "files.associations": {
+        "*.rmd": "markdown"
+    },
+    "python.defaultInterpreterPath": "/usr/bin/python3.10",
+    "jupyter.askForKernelRestart": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "window.zoomLevel": 1
+    
+}
