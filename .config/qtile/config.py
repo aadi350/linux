@@ -93,9 +93,9 @@ keys = [
     # custom applications
 
     Key([mod], "r", lazy.spawn("dmenu_run -p 'Run: '    ")),
-    Key([mod], "b", lazy.spawn("qutebrowser"), desc="Open brave browser"),
+    Key([mod], "b", lazy.spawn("brave"), desc="Open brave browser"),
     Key([mod], "f", lazy.spawn("nautilus"), desc="Open File manager"),
-    Key([mod], "space", lazy.spawn("emacs"), desc="Open EMACS")
+    # Key([mod], "space", lazy.spawn("emacs"), desc="Open EMACS")
 ]
 
 group_names = [
@@ -160,7 +160,7 @@ extension_defaults = widget_defaults.copy()
 
 screens = [
     Screen(
-        top=bar.Bar(
+        bottom=bar.Bar(
             [
                 widget.CurrentLayout(background="#000000", foreground="#FFFFFF"),
                 widget.GroupBox(
