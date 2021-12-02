@@ -1,3 +1,4 @@
 #!/bin/sh
-feh --bg-scale ~/Pictures/Wallpapers/3430368.png &
 nitrogen --restore &
+xinput set-prop 'Logitech Gaming Mouse G502' 289 1 &
+xset r rate 300 90 &

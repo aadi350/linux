@@ -86,7 +86,6 @@ keys = [
 
     # Toggle between different layouts as defined below
     Key([mod], "Tab", lazy.next_layout(), desc="Toggle between layouts"),
-    Key([mod, "shift"], "Tab", lazy.prev_layout(), desc="Toggle between layouts"),
     Key([mod], "w", lazy.window.kill(), desc="Kill focused window"),
 
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
@@ -143,7 +142,7 @@ layouts_config = {
 
 layouts = [
     layout.Columns(**layouts_config),
-    layout.Max(**layouts_config),
+    layout.Max(),
     # Try more layouts by unleashing below layouts.
     layout.Stack(num_stacks=2, **layouts_config),
     # layout.Bsp(),
@@ -153,7 +152,7 @@ layouts = [
     # layout.RatioTile(),
     # layout.Tile(),
     # layout.TreeTab(**layouts_config)
-    # layout.VerticalTile(),
+    layout.VerticalTile(),
     # layout.Zoomy(),
 ]
 
