@@ -1,0 +1,211 @@
+Jupyter Extension Version: 2021.11.1001532801.
+Python Extension Verison: 2021.11.1422169775.
+Info 06:14:38: Experimentation service retrieved: [object Object]
+User belongs to experiment group 'jupyterTestcf'
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+Info 06:14:38: ZMQ install verified.
+Info 06:14:39: Experiment status for python is {"enabled":true,"optInto":[],"optOutFrom":[]}
+Info 06:14:39: Find preferred kernel for ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb with metadata {"celltoolbar":"Tags","kernelspec":{"display_name":"Python 3","language":"python","name":"python3"},"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.8.8"}} & preferred interpreter /bin/python
+Info 06:14:39: findKernel found Python 3.9.7 64-bit
+Info 06:14:39: PreferredConnection: .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher found for NotebookDocument: ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:14:39: TargetController found ID: .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher for document ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:14:39: Setting controller affinity for ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher
+Info 06:14:39: Creating controller for jupyter-notebook with interpreter /bin/python
+Info 06:14:39: Process Execution: > /bin/python -m pip list
+> /bin/python -m pip list
+Info 06:14:39: Registering dummy command feature
+Info 06:15:10: Setting setActiveController for ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:15:10: Execute Cells request 40
+Info 06:15:10: Execute Cell 40 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:15:10: Starting Notebook in kernel.ts id = .jvsc74a57bd071e8b1f6f3495059fce097d5c6575812dc5dac8fbff18ce1c88517378c99d58f./home/aadi/miniconda3/python./home/aadi/miniconda3/python.-m#ipykernel_launcher
+Info 06:15:10: Creating raw notebook for ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:15:10: Getting preferred kernel for ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:15:10: Computing working directory ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:15:10: Starting raw kernel base (Python 3.9.5)
+Info 06:15:10: installMissingDependencies ~/miniconda3/bin/python
+Info 06:15:10: KernelProvider switched kernel to id = .jvsc74a57bd071e8b1f6f3495059fce097d5c6575812dc5dac8fbff18ce1c88517378c99d58f./home/aadi/miniconda3/python./home/aadi/miniconda3/python.-m#ipykernel_launcher
+Info 06:15:10: Process Execution: > ~/miniconda3/bin/python -c "import ipykernel"
+> ~/miniconda3/bin/python -c "import ipykernel"
+Info 06:15:10: Process Execution: > ~/miniconda3/bin/python -m pip list
+> ~/miniconda3/bin/python -m pip list
+Info 06:15:14: Got result from python installer for ipykernel, result = 2
+Info 06:15:34: Got result from python installer for ipykernel, result = 0
+Info 06:15:34: Process Execution: > ~/miniconda3/bin/python -m pip list
+> ~/miniconda3/bin/python -m pip list
+Info 06:15:34: Process Execution: > ~/miniconda3/bin/python -c "import ipykernel"
+> ~/miniconda3/bin/python -c "import ipykernel"
+Info 06:15:34: Kernel launching with ports 9000,9001,9002,9003,9004. Start port is 9000
+Info 06:15:34: Launching kernel daemon for Python 3.9.5 64-bit ('base': conda) # ~/miniconda3/bin/python
+Info 06:15:34: Creating daemon process for ~/miniconda3/bin/python with env variables count 77
+Info 06:15:34: Process Execution: > ~/miniconda3/bin/python -m vscode_datascience_helpers.daemon --daemon-module=vscode_datascience_helpers.kernel_launcher_daemon -v
+> ~/miniconda3/bin/python -m vscode_datascience_helpers.daemon --daemon-module=vscode_datascience_helpers.kernel_launcher_daemon -v
+Info 06:15:34: Starting kernel from scratch
+Warn 06:15:34: StdErr from Kernel Process /home/aadi/miniconda3/lib/python3.9/site-packages/traitlets/traitlets.py:2202: FutureWarning: Supporting extra quotes around strings is deprecated in traitlets 5.0. You can use 'hmac-sha256' instead of '"hmac-sha256"' if you require traitlets >=5.
+
+Warn 06:15:34: StdErr from Kernel Process   warn(
+
+Warn 06:15:34: StdErr from Kernel Process /home/aadi/miniconda3/lib/python3.9/site-packages/traitlets/traitlets.py:2157: FutureWarning: Supporting extra quotes around Bytes is deprecated in traitlets 5.0. Use '25231700-7dfb-444e-8af6-9ba9560192cd' instead of 'b"25231700-7dfb-444e-8af6-9ba9560192cd"'.
+
+Warn 06:15:34: StdErr from Kernel Process   warn(
+
+Info 06:15:35: Raw session started and connected
+Started kernel base (Python 3.9.5)
+Info 06:15:35: Finished connecting db81bc83-3613-4e7b-8d20-4f5dba6ed3c5
+Info 06:15:35: UpdateWorkingDirectoryAndPath in Kernel
+Info 06:15:35: changeDirectoryIfPossible
+Info 06:15:35: Executing (status idle) silently Code = import os\nimport sys\n%cd "/home/aadi/projects/data-science-syllabus/notebooks/ThinkBayes"\nif os.getc
+Info 06:15:35: Executing silently Code (completed) = import os\nimport sys\n%cd "/home/aadi/projects/data-science-syllabus/notebooks/ThinkBayes"\nif os.getc
+Info 06:15:35: Executing (status idle) silently Code = %config Completer.use_jedi = False
+Info 06:15:35: Executing silently Code (completed) = %config Completer.use_jedi = False
+Info 06:15:35: Executing (status idle) silently Code = %config InlineBackend.figure_formats = ['png']
+Info 06:15:35: Executing silently Code (completed) = %config InlineBackend.figure_formats = ['png']
+Info 06:15:35: Executing (status idle) silently Code = import sys\nprint(sys.executable)
+Info 06:15:35: Executing silently Code (completed) = import sys\nprint(sys.executable)
+Info 06:15:35: Waiting for idle on (kernel): 2f8966d4-34a8-42b3-92bd-c7f269079598 -> idle
+Info 06:15:35: Finished waiting for idle on (kernel): 2f8966d4-34a8-42b3-92bd-c7f269079598 -> idle
+Info 06:15:35: IPyWidgetScriptSource.initialize
+Info 06:15:35: Cancel all remaining cells true || Error
+Info 06:15:35: Cancel pending cells
+Info 06:15:35: Cell 40 executed with state Error
+Info 06:15:35: Registering dummy command feature
+Info 06:16:00: Execute Cells request 40
+Info 06:16:00: Execute Cell 40 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:16:03: Cancel all remaining cells true || Error
+Info 06:16:03: Cancel pending cells
+Info 06:16:03: Cell 40 executed with state Error
+Info 06:16:33: Execute Cells request 40
+Info 06:16:33: Execute Cell 40 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:16:40: Cancel all remaining cells true || Error
+Info 06:16:40: Cancel pending cells
+Info 06:16:40: Cell 40 executed with state Error
+Info 06:16:57: Execute Cells request 40
+Info 06:16:57: Execute Cell 40 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:17:05: Cancel all remaining cells true || Error
+Info 06:17:05: Cancel pending cells
+Info 06:17:05: Cell 40 executed with state Error
+Info 06:17:11: Execute Cells request 40
+Info 06:17:11: Execute Cell 40 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:17:21: Cell 40 executed with state Success
+Info 06:17:43: Execute Cells request 40
+Info 06:17:43: Execute Cell 40 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:17:44: Cell 40 executed with state Success
+Info 06:17:45: Execute Cells request 42
+Info 06:17:45: Execute Cell 42 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:17:45: Cell 42 executed with state Success
+Info 06:17:51: Execute Cells request 43
+Info 06:17:51: Execute Cell 43 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:17:51: Cancel all remaining cells true || Error
+Info 06:17:51: Cancel pending cells
+Info 06:17:51: Cell 43 executed with state Error
+Info 06:18:05: Execute Cells request 43
+Info 06:18:05: Execute Cell 43 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:18:10: Cancel all remaining cells true || Error
+Info 06:18:10: Cancel pending cells
+Info 06:18:10: Cell 43 executed with state Error
+Info 06:18:17: Execute Cells request 43
+Info 06:18:17: Execute Cell 43 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:18:19: Cell 43 executed with state Success
+Info 06:18:23: Execute Cells request 43
+Info 06:18:23: Execute Cell 43 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:18:23: Cell 43 executed with state Success
+Info 06:18:58: Execute Cells request 45
+Info 06:18:58: Execute Cell 45 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:18:58: Cell 45 executed with state Success
+Info 06:19:16: Execute Cells request 48
+Info 06:19:16: Execute Cell 48 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:19:16: Cell 48 executed with state Success
+Info 06:19:16: Execute Cells request 50
+Info 06:19:16: Execute Cell 50 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:19:16: Cell 50 executed with state Success
+Info 06:19:17: Execute Cells request 52
+Info 06:19:17: Execute Cell 52 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:19:17: Cell 52 executed with state Success
+Info 06:19:18: Execute Cells request 53
+Info 06:19:18: Execute Cell 53 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:19:18: Cell 53 executed with state Success
+Info 06:19:20: Execute Cells request 55
+Info 06:19:20: Execute Cell 55 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:19:20: Cell 55 executed with state Success
+Info 06:19:22: Execute Cells request 57
+Info 06:19:22: Execute Cell 57 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:19:22: Cell 57 executed with state Success
+Info 06:19:24: Execute Cells request 59
+Info 06:19:24: Execute Cell 59 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:19:24: Cell 59 executed with state Success
+Info 06:19:26: Execute Cells request 61
+Info 06:19:26: Execute Cell 61 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:19:26: Cell 61 executed with state Success
+Info 06:21:41: Execute Cells request 67
+Info 06:21:41: Execute Cell 67 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:21:41: Cancel all remaining cells true || Error
+Info 06:21:41: Cancel pending cells
+Info 06:21:41: Cell 67 executed with state Error
+Info 06:21:46: Execute Cells request 65
+Info 06:21:46: Execute Cell 65 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:21:46: Cell 65 executed with state Success
+Info 06:21:47: Execute Cells request 67
+Info 06:21:47: Execute Cell 67 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:21:47: Cell 67 executed with state Success
+Info 06:22:11: Execute Cells request 69
+Info 06:22:11: Execute Cell 69 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:22:11: Cell 69 executed with state Success
+Info 06:22:12: Execute Cells request 71
+Info 06:22:12: Execute Cell 71 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:22:12: Cell 71 executed with state Success
+Info 06:22:51: Execute Cells request 74
+Info 06:22:51: Execute Cell 74 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:22:51: Cell 74 executed with state Success
+Info 06:22:54: Execute Cells request 76
+Info 06:22:54: Execute Cell 76 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:22:54: Cell 76 executed with state Success
+Info 06:23:09: Execute Cells request 78
+Info 06:23:09: Execute Cell 78 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:23:09: Cell 78 executed with state Success
+Info 06:23:27: Execute Cells request 80
+Info 06:23:27: Execute Cell 80 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:23:27: Cell 80 executed with state Success
+Info 06:24:02: Execute Cells request 82
+Info 06:24:02: Execute Cell 82 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:24:02: Cell 82 executed with state Success
+Info 06:24:03: Execute Cells request 84
+Info 06:24:03: Execute Cell 84 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:24:03: Cell 84 executed with state Success
+Info 06:24:07: Execute Cells request 86
+Info 06:24:07: Execute Cell 86 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:24:07: Cell 86 executed with state Success
+Info 06:24:12: Execute Cells request 88
+Info 06:24:12: Execute Cell 88 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:24:12: Cell 88 executed with state Success
+Info 06:25:43: Execute Cells request 74
+Info 06:25:43: Execute Cell 74 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:25:43: Cell 74 executed with state Success
+Info 06:26:02: Execute Cells request 74
+Info 06:26:02: Execute Cell 74 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:26:02: Cancel all remaining cells true || Error
+Info 06:26:02: Cancel pending cells
+Info 06:26:02: Cell 74 executed with state Error
+Info 06:26:15: Execute Cells request 74
+Info 06:26:15: Execute Cell 74 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:26:15: Cell 74 executed with state Success
+Info 06:26:24: Execute Cells request 74
+Info 06:26:24: Execute Cell 74 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:26:24: Cell 74 executed with state Success
+Info 06:26:33: Execute Cells request 74
+Info 06:26:33: Execute Cell 74 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:26:34: Cell 74 executed with state Success
+Info 06:36:10: Execute Cells request 95
+Info 06:36:10: Execute Cell 95 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:36:10: Cell 95 executed with state Success
+Info 06:36:15: Execute Cells request 95
+Info 06:36:15: Execute Cell 95 ~/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:36:15: Cell 95 executed with state Success
+Info 06:42:14: Shutting down notebooks for db81bc83-3613-4e7b-8d20-4f5dba6ed3c5
+Info 06:42:14: Disposing HostJupyterExecution 5088bfcf-859c-4621-920d-fd1eebe47122
+Info 06:42:14: Disposing super HostJupyterExecution 5088bfcf-859c-4621-920d-fd1eebe47122
+Info 06:42:14: Dispose kernel file:///home/aadi/projects/data-science-syllabus/notebooks/ThinkBayes/chap06.ipynb
+Info 06:42:14: Dispose Kernel process
+Info 06:42:14: kill daemon
+Info 06:42:14: Disposing HostJupyterExecution 5088bfcf-859c-4621-920d-fd1eebe47122
+Info 06:42:14: Finished disposing HostJupyterExecution  5088bfcf-859c-4621-920d-fd1eebe47122
+Info 06:42:14: Cleaning up server cache 5088bfcf-859c-4621-920d-fd1eebe47122
+Info 06:42:14: Finished disposing HostJupyterExecution  5088bfcf-859c-4621-920d-fd1eebe47122

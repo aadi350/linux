@@ -1,0 +1,19 @@
+[Info  - 6:45:21 AM] Pylance language server 2021.12.1-pre.1 (pyright acfc919d) starting
+[Info  - 6:45:21 AM] Server root directory: /home/aadi/.vscode-insiders/extensions/ms-python.vscode-pylance-2021.12.1-pre.1/dist
+[Info  - 6:45:21 AM] No configuration file found.
+[Info  - 6:45:21 AM] No pyproject.toml file found.
+[Info  - 6:45:21 AM] Setting pythonPath for service "ThinkBayes": "/bin/python"
+[Warn  - 6:45:21 AM] stubPath /home/aadi/projects/data-science-syllabus/notebooks/ThinkBayes/typings is not a valid directory.
+[Info  - 6:45:21 AM] Assuming Python version 3.9
+[Info  - 6:45:21 AM] Assuming Python platform Linux
+[Warn  - 6:45:22 AM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 6:45:22 AM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 6:45:22 AM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 6:45:22 AM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Info  - 6:45:22 AM] Searching for source files
+[Info  - 6:45:22 AM] Found 1 source file
+[Info  - 6:45:22 AM] Background analysis(1) root directory: /home/aadi/.vscode-insiders/extensions/ms-python.vscode-pylance-2021.12.1-pre.1/dist
+[Info  - 6:45:22 AM] Background analysis(1) started
+[Info  - 6:45:22 AM] Indexer background runner(2) root directory: /home/aadi/.vscode-insiders/extensions/ms-python.vscode-pylance-2021.12.1-pre.1/dist
+[Info  - 6:45:22 AM] Indexing(2) started
+[Info  - 6:45:23 AM] Indexer done(2). indexed 457 files

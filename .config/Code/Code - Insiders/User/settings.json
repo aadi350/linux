@@ -1,0 +1,10 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Community Material Theme Ocean High Contrast",
+    "editor.fontFamily": "'hack'",
+    "keyboard.dispatch": "keyCode",
+    "jupyter.askForKernelRestart": false,
+    "python.insidersChannel": "weekly",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+}

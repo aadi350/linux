@@ -1,0 +1,22 @@
+Experiment 'pythonaacf' is active
+Experiment 'pythonTensorboardExperiment' is active
+Experiment 'PythonPyTorchProfiler' is active
+Experiment 'pythonDeprecatePythonPath' is active
+Experiment 'pythonRunFailedTestsButtonDisplayed' is active
+Experiment 'pythonRefreshTestsButtonDisplayed' is active
+Experiment 'pythonRememberDebugConfig' is active
+> conda info --json
+> ~/.conda/bin/conda info --json
+> ~/miniconda3/bin/conda info --json
+> ~/miniconda3/bin/python ~/.vscode-insiders/extensions/ms-python.python-2021.12.1522449417-dev/pythonFiles/interpreterInfo.py
+> ~/miniconda3/envs/fire-bot/bin/python ~/.vscode-insiders/extensions/ms-python.python-2021.12.1522449417-dev/pythonFiles/interpreterInfo.py
+> /bin/python ~/.vscode-insiders/extensions/ms-python.python-2021.12.1522449417-dev/pythonFiles/interpreterInfo.py
+> /sbin/python ~/.vscode-insiders/extensions/ms-python.python-2021.12.1522449417-dev/pythonFiles/interpreterInfo.py
+> /usr/bin/python ~/.vscode-insiders/extensions/ms-python.python-2021.12.1522449417-dev/pythonFiles/interpreterInfo.py
+> /usr/sbin/python ~/.vscode-insiders/extensions/ms-python.python-2021.12.1522449417-dev/pythonFiles/interpreterInfo.py
+> ". /home/aadi/miniconda3/bin/activate && conda activate base && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /home/aadi/.vscode-insiders/extensions/ms-python.python-2021.12.1522449417-dev/pythonFiles/printEnvVariables.py"
+> ". /home/aadi/miniconda3/bin/activate && conda activate base && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /home/aadi/.vscode-insiders/extensions/ms-python.python-2021.12.1522449417-dev/pythonFiles/printEnvVariables.py"
+> ". /home/aadi/miniconda3/bin/activate && conda activate base && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /home/aadi/.vscode-insiders/extensions/ms-python.python-2021.12.1522449417-dev/pythonFiles/printEnvVariables.py"
+> ". /home/aadi/miniconda3/bin/activate && conda activate base && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /home/aadi/.vscode-insiders/extensions/ms-python.python-2021.12.1522449417-dev/pythonFiles/printEnvVariables.py"
+Python interpreter path: /bin/python
+Starting Pylance language server.

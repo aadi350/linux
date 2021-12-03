@@ -1,0 +1,12 @@
+The configuration 'editor.suggestSelection' will be set to 'first' since the default value 'recentlyUsed' may cause you to not see IntelliCode completions.
+You can configure this behavior with the setting 'vsintellicode.modify.editor.suggestSelection'.
+The configuration 'editor.suggestSelection' has been set to 'first'.
+Language server is set to "Default". Pylance is used as current language server.
+Acquiring model
+Acquiring model 'intellisense-members-lstm-pylance' for python
+Querying IntelliCode service for available models.
+vs-intellicode-python was passed a model: {}.
+Downloading model.
+Starting download of https://intellicodeprodstorage.blob.core.windows.net/models-prod-output/Output_E61945A9A512ED5E1A3EE3F1A2365B88F8FE_E4E9EADA96734F01970E616FAB2FAC19?skoid=bf9239ea-04ee-49e6-8b41-ee3069ca2a1b&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2021-12-03T16%3A30%3A28Z&ske=2021-12-04T16%3A30%3A28Z&sks=b&skv=2020-02-10&sv=2020-02-10&se=2021-12-03T18%3A49%3A33Z&sr=b&sp=r&sig=Yieys6r2uLF7YinjEdvhSb4lME0Ceu4EfuyQ0k0yhuI%3D
+Download complete.
+Activating Python extension

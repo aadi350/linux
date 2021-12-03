@@ -1,0 +1,33 @@
+Experiment 'pythonaacf' is active
+Experiment 'pythonTensorboardExperiment' is active
+Experiment 'PythonPyTorchProfiler' is active
+Experiment 'pythonDeprecatePythonPath' is active
+Experiment 'pythonRunFailedTestsButtonDisplayed' is active
+Experiment 'pythonRefreshTestsButtonDisplayed' is active
+Experiment 'pythonRememberDebugConfig' is active
+> conda info --json
+> ~/.conda/bin/conda info --json
+> ~/miniconda3/bin/conda info --json
+> /bin/python ~/.vscode-insiders/extensions/ms-python.python-2021.11.1422169775/pythonFiles/interpreterInfo.py
+> /sbin/python ~/.vscode-insiders/extensions/ms-python.python-2021.11.1422169775/pythonFiles/interpreterInfo.py
+> /usr/bin/python ~/.vscode-insiders/extensions/ms-python.python-2021.11.1422169775/pythonFiles/interpreterInfo.py
+> /usr/sbin/python ~/.vscode-insiders/extensions/ms-python.python-2021.11.1422169775/pythonFiles/interpreterInfo.py
+> ~/miniconda3/bin/python ~/.vscode-insiders/extensions/ms-python.python-2021.11.1422169775/pythonFiles/interpreterInfo.py
+> ~/miniconda3/envs/fire-bot/bin/python ~/.vscode-insiders/extensions/ms-python.python-2021.11.1422169775/pythonFiles/interpreterInfo.py
+Python interpreter path: /bin/python
+Starting Pylance language server.
+> ~/miniconda3/bin/conda info --json
+> ". /home/aadi/miniconda3/bin/activate && conda activate base && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /home/aadi/.vscode-insiders/extensions/ms-python.python-2021.11.1422169775/pythonFiles/printEnvVariables.py"
+> ". /home/aadi/miniconda3/bin/activate && conda activate base && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /home/aadi/.vscode-insiders/extensions/ms-python.python-2021.11.1422169775/pythonFiles/printEnvVariables.py"
+> ~/miniconda3/bin/python -c "import pip"
+> ~/miniconda3/bin/python -c "import ipykernel"
+> ". /home/aadi/miniconda3/bin/activate && conda activate base && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /home/aadi/.vscode-insiders/extensions/ms-python.python-2021.11.1422169775/pythonFiles/printEnvVariables.py"
+> ". /home/aadi/miniconda3/bin/activate && conda activate base && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /home/aadi/.vscode-insiders/extensions/ms-python.python-2021.11.1422169775/pythonFiles/printEnvVariables.py"
+> ". /home/aadi/miniconda3/bin/activate && conda activate base && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /home/aadi/.vscode-insiders/extensions/ms-python.python-2021.11.1422169775/pythonFiles/printEnvVariables.py"
+> ~/miniconda3/bin/conda info --json
+Starting download for Insiders build.
+Downloading https://pvsc.blob.core.windows.net/extension-builds/ms-python-insiders.vsix...
+Insiders build download complete.
+Installing Insiders... complete.
+Error 2021-12-03 06:42:14: Error while running worker[Worker 2]. undefined
+Error 2021-12-03 06:42:14: Error while running worker[Worker 1]. undefined

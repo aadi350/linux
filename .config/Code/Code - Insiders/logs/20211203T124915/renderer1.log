@@ -1,0 +1,7 @@
+[2021-12-03 12:49:16.572] [renderer1] [error] [Extension Host] (node:741939) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code-insiders --trace-deprecation ...` to show where the warning was created)
+[2021-12-03 12:49:17.267] [renderer1] [warning] [File Watcher (parcel)] correcting a path to watch that seems to be a symbolic link (original: /home/aadi/projects/omdena, real: /mnt/storage/projects/omdena)
+[2021-12-03 12:59:00.275] [renderer1] [error] Cannot read property 'length' of undefined: TypeError: Cannot read property 'length' of undefined
+    at /home/aadi/.vscode-insiders/extensions/ms-python.python-2021.12.1522449417-dev/out/client/extension.js:67:257359
+    at p (/home/aadi/.vscode-insiders/extensions/ms-python.python-2021.12.1522449417-dev/out/client/extension.js:67:262355)
+    at z.provideCompletionItems (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:101392)

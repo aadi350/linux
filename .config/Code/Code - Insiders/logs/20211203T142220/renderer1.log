@@ -1,0 +1,3 @@
+[2021-12-03 14:22:21.055] [renderer1] [error] [Extension Host] (node:813211) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code-insiders --trace-deprecation ...` to show where the warning was created)
+[2021-12-03 14:22:21.813] [renderer1] [warning] [File Watcher (parcel)] correcting a path to watch that seems to be a symbolic link (original: /home/aadi/projects/omdena, real: /mnt/storage/projects/omdena)

@@ -1,0 +1,12 @@
+Validating found git in: git
+Using git 2.34.0 from git
+> git rev-parse --git-dir
+Open repository: /mnt/storage/projects/data-science-syllabus
+> git status -z -u
+Opening repository for path='/home/aadi/projects/data-science-syllabus/.gitignore' failed; ex=Error: spawn ENOTDIR
+> git symbolic-ref --short HEAD
+Opening repository for path='/home/aadi/projects/data-science-syllabus/README.md' failed; ex=Error: spawn ENOTDIR
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template

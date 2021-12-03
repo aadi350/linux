@@ -1,0 +1,126 @@
+Jupyter Extension Version: 2021.11.1001529796.
+Python Extension Verison: 2021.11.1422169775.
+Error 06:13:56: stat() failed for "/home/aadi/.vscode-insiders/extensions/PythonCodingPack" Canceled (FileSystemError): Canceled
+    at Function._handleError (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:84987)
+    at Object.stat (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:82915)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at m.localPathExists (/home/aadi/.vscode-insiders/extensions/ms-toolsai.jupyter-2021.11.1001529796/out/client/extension.js:104:381161)
+    at t.setExtensionInstallTelemetryProperties (/home/aadi/.vscode-insiders/extensions/ms-toolsai.jupyter-2021.11.1001529796/out/client/extension.js:104:394493)
+    at /home/aadi/.vscode-insiders/extensions/ms-toolsai.jupyter-2021.11.1001529796/out/client/extension.js:66:244913
+    at /home/aadi/.vscode-insiders/extensions/ms-toolsai.jupyter-2021.11.1001529796/out/client/extension.js:51:746357
+    at t.activate (/home/aadi/.vscode-insiders/extensions/ms-toolsai.jupyter-2021.11.1001529796/out/client/extension.js:51:746036) {
+  code: 'Unknown'
+}
+Info 06:13:56: Experimentation service retrieved: [object Object]
+User belongs to experiment group 'jupyterTestcf'
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+Info 06:13:56: ZMQ install verified.
+Error 06:13:56: stat() failed for "/home/aadi/miniconda3/envs/fire-bot/bin/python" Canceled (FileSystemError): Canceled
+    at Function._handleError (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:84987)
+    at Object.stat (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:82915)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) {
+  code: 'Unknown'
+}
+Error 06:13:56: stat() failed for "/home/aadi/miniconda3/bin/python" Canceled (FileSystemError): Canceled
+    at Function._handleError (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:84987)
+    at Object.stat (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:82915)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) {
+  code: 'Unknown'
+}
+Error 06:13:56: stat() failed for "/usr/bin/python" Canceled (FileSystemError): Canceled
+    at Function._handleError (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:84987)
+    at Object.stat (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:82915)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) {
+  code: 'Unknown'
+}
+Error 06:13:56: stat() failed for "/bin/python" Canceled (FileSystemError): Canceled
+    at Function._handleError (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:84987)
+    at Object.stat (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:82915)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) {
+  code: 'Unknown'
+}
+Error 06:13:56: stat() failed for "/sbin/python" Canceled (FileSystemError): Canceled
+    at Function._handleError (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:84987)
+    at Object.stat (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:82915)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) {
+  code: 'Unknown'
+}
+Error 06:13:56: stat() failed for "/usr/sbin/python" Canceled (FileSystemError): Canceled
+    at Function._handleError (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:84987)
+    at Object.stat (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:82915)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) {
+  code: 'Unknown'
+}
+Error 06:13:56: stat() failed for "/home/aadi/miniconda3/envs/fire-bot/bin/python" Canceled (FileSystemError): Canceled
+    at Function._handleError (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:84987)
+    at Object.stat (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:82915)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) {
+  code: 'Unknown'
+}
+Error 06:13:56: stat() failed for "/home/aadi/miniconda3/bin/python" Canceled (FileSystemError): Canceled
+    at Function._handleError (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:84987)
+    at Object.stat (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:82915)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) {
+  code: 'Unknown'
+}
+Error 06:13:56: stat() failed for "/usr/bin/python" Canceled (FileSystemError): Canceled
+    at Function._handleError (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:84987)
+    at Object.stat (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:82915)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) {
+  code: 'Unknown'
+}
+Error 06:13:56: stat() failed for "/bin/python" Canceled (FileSystemError): Canceled
+    at Function._handleError (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:84987)
+    at Object.stat (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:82915)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) {
+  code: 'Unknown'
+}
+Error 06:13:56: stat() failed for "/sbin/python" Canceled (FileSystemError): Canceled
+    at Function._handleError (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:84987)
+    at Object.stat (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:82915)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) {
+  code: 'Unknown'
+}
+Error 06:13:56: stat() failed for "/usr/sbin/python" Canceled (FileSystemError): Canceled
+    at Function._handleError (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:84987)
+    at Object.stat (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:82915)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) {
+  code: 'Unknown'
+}
+Error 06:13:56: stat() failed for "/home/aadi/miniconda3/envs/fire-bot/bin/python" Canceled (FileSystemError): Canceled
+    at Function._handleError (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:84987)
+    at Object.stat (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:82915)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) {
+  code: 'Unknown'
+}
+Error 06:13:56: stat() failed for "/mnt/storage/projects/fire-bot/.env" Canceled (FileSystemError): Canceled
+    at Function._handleError (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:84987)
+    at Object.stat (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:82915)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) {
+  code: 'Unknown'
+}
+Error 06:13:56: Failed to parse env file /mnt/storage/projects/fire-bot/.env Canceled (FileSystemError): Canceled
+    at Function._handleError (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:84987)
+    at Object.readFile (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:83461)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at m.readFile (/home/aadi/.vscode-insiders/extensions/ms-toolsai.jupyter-2021.11.1001529796/out/client/extension.js:104:380798) {
+  code: 'Unknown'
+}
+Error 06:13:56: stat() failed for "/usr/share/jupyter/kernels" Canceled (FileSystemError): Canceled
+    at Function._handleError (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:84987)
+    at Object.stat (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:82915)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) {
+  code: 'Unknown'
+}
+Error 06:13:56: stat() failed for "/usr/local/share/jupyter/kernels" Canceled (FileSystemError): Canceled
+    at Function._handleError (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:84987)
+    at Object.stat (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:82915)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) {
+  code: 'Unknown'
+}
+Error 06:13:56: stat() failed for "/home/aadi/.local/share/jupyter/kernels" Canceled (FileSystemError): Canceled
+    at Function._handleError (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:84987)
+    at Object.stat (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:82915)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) {
+  code: 'Unknown'
+}

@@ -1,0 +1,18 @@
+[Info  - 2:22:22 PM] Pylance language server 2021.12.1-pre.1 (pyright acfc919d) starting
+[Info  - 2:22:22 PM] Server root directory: /home/aadi/.vscode-insiders/extensions/ms-python.vscode-pylance-2021.12.1-pre.1/dist
+[Info  - 2:22:22 PM] No configuration file found.
+[Info  - 2:22:22 PM] No pyproject.toml file found.
+[Info  - 2:22:22 PM] Setting pythonPath for service "omdena": "/home/aadi/projects/omdena/src/env/bin/python"
+[Warn  - 2:22:22 PM] stubPath /home/aadi/projects/omdena/typings is not a valid directory.
+[Info  - 2:22:22 PM] Assuming Python version 3.9
+[Info  - 2:22:22 PM] Assuming Python platform Linux
+[Warn  - 2:22:22 PM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 2:22:22 PM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Info  - 2:22:22 PM] Searching for source files
+[Info  - 2:22:22 PM] Auto-excluding /home/aadi/projects/omdena/src/env
+[Info  - 2:22:22 PM] Found 13 source files
+[Info  - 2:22:22 PM] Background analysis(1) root directory: /home/aadi/.vscode-insiders/extensions/ms-python.vscode-pylance-2021.12.1-pre.1/dist
+[Info  - 2:22:22 PM] Background analysis(1) started
+[Info  - 2:22:23 PM] Indexer background runner(2) root directory: /home/aadi/.vscode-insiders/extensions/ms-python.vscode-pylance-2021.12.1-pre.1/dist
+[Info  - 2:22:23 PM] Indexing(2) started
+[Info  - 2:22:24 PM] Indexer done(2). indexed 505 files

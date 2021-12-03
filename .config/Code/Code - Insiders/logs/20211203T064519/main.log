@@ -1,0 +1,9 @@
+[2021-12-03 06:45:19.325] [main] [info] update#setState idle
+[2021-12-03 06:45:19.341] [main] [info] ExtensionHostStarterWorker created
+[2021-12-03 06:45:19.860] [main] [info] Starting extension host with pid 494548 (fork() took 5 ms).
+[2021-12-03 06:45:27.864] [main] [info] Starting extension host with pid 495079 (fork() took 6 ms).
+[2021-12-03 06:45:28.383] [main] [info] Extension host with pid 494548 exited with code: 0, signal: null.
+[2021-12-03 06:45:49.325] [main] [info] update#setState checking for updates
+[2021-12-03 06:45:49.454] [main] [info] update#setState idle
+[2021-12-03 06:48:33.613] [main] [info] Waiting for extension host with pid 495079 to exit.
+[2021-12-03 06:48:33.800] [main] [info] Extension host with pid 495079 exited with code: 0, signal: null.

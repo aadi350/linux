@@ -1,0 +1,65 @@
+Jupyter Extension Version: 2021.11.1001532801.
+Python Extension Verison: 2021.11.1422169775.
+Info 06:14:16: Experimentation service retrieved: [object Object]
+User belongs to experiment group 'jupyterTestcf'
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+Info 06:14:16: ZMQ install verified.
+Info 06:14:16: Freferred kernel connection found in cache .jvsc74a57bd0e61bcc248381d548af8531941b810b8cac47cfa9e13e6f1e2b6b38fb833aaed3./home/aadi/miniconda3/envs/fire-bot/python./home/aadi/miniconda3/envs/fire-bot/python.-m#ipykernel_launcher
+Info 06:14:16: PreferredConnection: .jvsc74a57bd0e61bcc248381d548af8531941b810b8cac47cfa9e13e6f1e2b6b38fb833aaed3./home/aadi/miniconda3/envs/fire-bot/python./home/aadi/miniconda3/envs/fire-bot/python.-m#ipykernel_launcher found for NotebookDocument: /mnt/storage/projects/fire-bot/src/TestingBayesianModel.ipynb
+Info 06:14:16: Early registration of controller for Kernel connection .jvsc74a57bd0e61bcc248381d548af8531941b810b8cac47cfa9e13e6f1e2b6b38fb833aaed3./home/aadi/miniconda3/envs/fire-bot/python./home/aadi/miniconda3/envs/fire-bot/python.-m#ipykernel_launcher
+Info 06:14:16: TargetController found ID: .jvsc74a57bd0e61bcc248381d548af8531941b810b8cac47cfa9e13e6f1e2b6b38fb833aaed3./home/aadi/miniconda3/envs/fire-bot/python./home/aadi/miniconda3/envs/fire-bot/python.-m#ipykernel_launcher for document /mnt/storage/projects/fire-bot/src/TestingBayesianModel.ipynb
+Info 06:14:16: Setting controller affinity for /mnt/storage/projects/fire-bot/src/TestingBayesianModel.ipynb .jvsc74a57bd0e61bcc248381d548af8531941b810b8cac47cfa9e13e6f1e2b6b38fb833aaed3./home/aadi/miniconda3/envs/fire-bot/python./home/aadi/miniconda3/envs/fire-bot/python.-m#ipykernel_launcher
+Info 06:14:16: Experiment status for python is {"enabled":true,"optInto":[],"optOutFrom":[]}
+Info 06:14:16: Creating controller for jupyter-notebook with interpreter ~/miniconda3/envs/fire-bot/bin/python
+Info 06:14:16: Setting setActiveController for /mnt/storage/projects/fire-bot/src/TestingBayesianModel.ipynb
+Info 06:14:16: KernelProvider switched kernel to id = .jvsc74a57bd0e61bcc248381d548af8531941b810b8cac47cfa9e13e6f1e2b6b38fb833aaed3./home/aadi/miniconda3/envs/fire-bot/python./home/aadi/miniconda3/envs/fire-bot/python.-m#ipykernel_launcher
+Info 06:14:16: Starting Notebook in kernel.ts id = .jvsc74a57bd0e61bcc248381d548af8531941b810b8cac47cfa9e13e6f1e2b6b38fb833aaed3./home/aadi/miniconda3/envs/fire-bot/python./home/aadi/miniconda3/envs/fire-bot/python.-m#ipykernel_launcher
+Info 06:14:16: Creating raw notebook for /mnt/storage/projects/fire-bot/src/TestingBayesianModel.ipynb
+Info 06:14:16: Getting preferred kernel for /mnt/storage/projects/fire-bot/src/TestingBayesianModel.ipynb
+Info 06:14:16: Computing working directory /mnt/storage/projects/fire-bot/src/TestingBayesianModel.ipynb
+Info 06:14:16: Starting raw kernel fire-bot (Python 3.8.12)
+Info 06:14:16: installMissingDependencies ~/miniconda3/envs/fire-bot/bin/python
+Info 06:14:16: IPykernel found previously in this enviornment ~/miniconda3/envs/fire-bot/bin/python
+Info 06:14:16: Kernel launching with ports 9000,9001,9002,9003,9004. Start port is 9000
+Info 06:14:16: Launching kernel daemon for Python 3.8.12 64-bit ('fire-bot': conda) # ~/miniconda3/envs/fire-bot/bin/python
+Info 06:14:16: Registering dummy command feature
+Info 06:14:16: Process Execution: > ~/miniconda3/envs/fire-bot/bin/python -m pip list
+> ~/miniconda3/envs/fire-bot/bin/python -m pip list
+Info 06:14:16: Creating daemon process for ~/miniconda3/envs/fire-bot/bin/python with env variables count 84
+Info 06:14:16: Process Execution: > ~/miniconda3/envs/fire-bot/bin/python -m vscode_datascience_helpers.daemon --daemon-module=vscode_datascience_helpers.kernel_launcher_daemon -v
+> ~/miniconda3/envs/fire-bot/bin/python -m vscode_datascience_helpers.daemon --daemon-module=vscode_datascience_helpers.kernel_launcher_daemon -v
+Info 06:14:16: Starting kernel from scratch
+Warn 06:14:17: StdErr from Kernel Process /home/aadi/miniconda3/envs/fire-bot/lib/python3.8/site-packages/traitlets/traitlets.py:2202: FutureWarning: Supporting extra quotes around strings is deprecated in traitlets 5.0. You can use 'hmac-sha256' instead of '"hmac-sha256"' if you require traitlets >=5.
+
+Warn 06:14:17: StdErr from Kernel Process   warn(
+
+Warn 06:14:17: StdErr from Kernel Process /home/aadi/miniconda3/envs/fire-bot/lib/python3.8/site-packages/traitlets/traitlets.py:2157: FutureWarning: Supporting extra quotes around Bytes is deprecated in traitlets 5.0. Use 'd9bdc75a-40ee-49c7-98d1-532b41336249' instead of 'b"d9bdc75a-40ee-49c7-98d1-532b41336249"'.
+
+Warn 06:14:17: StdErr from Kernel Process   warn(
+
+Info 06:14:17: Raw session started and connected
+Started kernel fire-bot (Python 3.8.12)
+Info 06:14:17: Finished connecting ad29cb34-d3fe-41cc-b921-37490bed6a04
+Info 06:14:17: UpdateWorkingDirectoryAndPath in Kernel
+Info 06:14:17: changeDirectoryIfPossible
+Info 06:14:17: Executing (status idle) silently Code = import os\nimport sys\n%cd "/mnt/storage/projects/fire-bot/src"\nif os.getcwd() not in sys.path:\nsy
+Info 06:14:17: Executing silently Code (completed) = import os\nimport sys\n%cd "/mnt/storage/projects/fire-bot/src"\nif os.getcwd() not in sys.path:\nsy
+Info 06:14:17: Executing (status idle) silently Code = %config Completer.use_jedi = False
+Info 06:14:17: Executing silently Code (completed) = %config Completer.use_jedi = False
+Info 06:14:17: Executing (status idle) silently Code = %config InlineBackend.figure_formats = ['png']
+Info 06:14:17: Executing silently Code (completed) = %config InlineBackend.figure_formats = ['png']
+Info 06:14:17: Executing (status idle) silently Code = import sys\nprint(sys.executable)
+Info 06:14:17: Executing silently Code (completed) = import sys\nprint(sys.executable)
+Info 06:14:17: Waiting for idle on (kernel): ce125664-10dc-47a3-b327-5245f069e2fe -> idle
+Info 06:14:17: Finished waiting for idle on (kernel): ce125664-10dc-47a3-b327-5245f069e2fe -> idle
+Info 06:14:17: IPyWidgetScriptSource.initialize
+Info 06:14:24: Shutting down notebooks for ad29cb34-d3fe-41cc-b921-37490bed6a04
+Info 06:14:24: Disposing HostJupyterExecution 74af540b-8304-4051-abbe-3479e2d4f97f
+Info 06:14:24: Disposing super HostJupyterExecution 74af540b-8304-4051-abbe-3479e2d4f97f
+Info 06:14:24: Dispose kernel file:///mnt/storage/projects/fire-bot/src/TestingBayesianModel.ipynb
+Info 06:14:24: Dispose Kernel process
+Info 06:14:24: kill daemon
+Info 06:14:24: Disposing HostJupyterExecution 74af540b-8304-4051-abbe-3479e2d4f97f
+Info 06:14:24: Finished disposing HostJupyterExecution  74af540b-8304-4051-abbe-3479e2d4f97f
+Info 06:14:24: Cleaning up server cache 74af540b-8304-4051-abbe-3479e2d4f97f
+Info 06:14:24: Finished disposing HostJupyterExecution  74af540b-8304-4051-abbe-3479e2d4f97f

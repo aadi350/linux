@@ -1,0 +1,44 @@
+[2021-12-03 14:22:21.367] [exthost] [info] Extension host with pid 813211 started
+[2021-12-03 14:22:21.367] [exthost] [info] Skipping acquiring lock for /home/aadi/.config/Code - Insiders/User/workspaceStorage/528b3dbe2788582332d44cb2d8ebad32.
+[2021-12-03 14:22:21.401] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-12-03 14:22:21.417] [exthost] [info] ExtensionService#_doActivateExtension KevinRose.vsc-python-indent, startup: false, activationEvent: 'onLanguage:python'
+[2021-12-03 14:22:21.419] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.vscode-pylance
+[2021-12-03 14:22:21.509] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2021-12-03 14:22:21.576] [exthost] [info] ExtensionService#_doActivateExtension njpwerner.autodocstring, startup: false, activationEvent: 'onLanguage:python'
+[2021-12-03 14:22:21.585] [exthost] [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:python'
+[2021-12-03 14:22:21.606] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-03 14:22:21.607] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-03 14:22:21.609] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+[2021-12-03 14:22:21.742] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2021-12-03 14:22:21.753] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-03 14:22:21.978] [exthost] [info] Eager extensions activated
+[2021-12-03 14:22:22.180] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2021-12-03 14:22:22.182] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-03 14:22:22.185] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-03 14:22:22.186] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-03 14:22:22.230] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-03 14:22:22.286] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'api', root cause: VisualStudioExptTeam.vscodeintellicode
+[2021-12-03 14:22:24.677] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-03 14:22:24.847] [exthost] [error] TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 't'
+    |     property '_readableState' -> object with constructor 'C'
+    |     property 'pipes' -> object with constructor 'Array'
+    |     index 0 -> object with constructor 't.ConsoleForElectron'
+    --- property 'parent' closes the circle
+    at JSON.stringify (<anonymous>)
+    at /home/aadi/.vscode-insiders/extensions/vscodevim.vim-1.21.10/src/register/register.ts:357:16
+    at process.async (internal/process/task_queues.js:93:5)
+    at Object.e.deactivate (/home/aadi/.vscode-insiders/extensions/vscodevim.vim-1.21.10/extension.ts:36:8)
+    at async Promise.all (index 16)
+    at v.deactivateAll (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:100:10083)
+[2021-12-03 14:22:24.850] [exthost] [error] ProxyResolver#resolveProxy Canceled: Canceled
+    at Object.R [as canceled] (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1157)
+    at t._remoteCall (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:13876)
+    at Proxy.O.<computed>.F.charCodeAt.O.<computed> (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:10271)
+    at u.resolveProxy (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:39347)
+    at Object.resolveProxy (/opt/visual-studio-code-insiders/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:59719)
+    at useProxySettings (/opt/visual-studio-code-insiders/resources/app/node_modules.asar/vscode-proxy-agent/out/index.js:159:16)
+    at /opt/visual-studio-code-insiders/resources/app/node_modules.asar/vscode-proxy-agent/out/index.js:107:13
+    at /opt/visual-studio-code-insiders/resources/app/node_modules.asar/vscode-proxy-agent/out/index.js:335:13
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+[2021-12-03 14:22:25.216] [exthost] [info] Extension host with pid 813211 exiting with code 0

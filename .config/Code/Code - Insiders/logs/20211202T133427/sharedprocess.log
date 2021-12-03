@@ -1,0 +1,50 @@
+[2021-12-02 13:34:46.453] [sharedprocess] [info] Starting worker process with pid 364800 (type: watcherServiceParcelSharedProcess, window: 1).
+[2021-12-02 13:34:52.803] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter
+[2021-12-02 13:34:54.063] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter-keymap
+[2021-12-02 13:34:54.063] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter-renderers
+[2021-12-02 13:34:54.063] [sharedprocess] [info] Extension is already requested to install ms-toolsai.jupyter-renderers
+[2021-12-02 13:34:54.635] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter-keymap /home/aadi/.config/Code - Insiders/CachedExtensionVSIXs/ms-toolsai.jupyter-keymap-1.0.0
+[2021-12-02 13:34:54.651] [sharedprocess] [info] Extracted extension to /home/aadi/.vscode-insiders/extensions/.b5c17b3c-01bf-4a1e-94b4-0792417aa56f: ms-toolsai.jupyter-keymap
+[2021-12-02 13:34:54.654] [sharedprocess] [info] Renamed to /home/aadi/.vscode-insiders/extensions/ms-toolsai.jupyter-keymap-1.0.0
+[2021-12-02 13:34:54.655] [sharedprocess] [info] Extracting completed. ms-toolsai.jupyter-keymap
+[2021-12-02 13:34:55.172] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter-renderers /home/aadi/.config/Code - Insiders/CachedExtensionVSIXs/ms-toolsai.jupyter-renderers-1.0.4
+[2021-12-02 13:34:55.269] [sharedprocess] [info] Extracted extension to /home/aadi/.vscode-insiders/extensions/.1287cc18-c04c-4f12-bd64-d21e57e1d59f: ms-toolsai.jupyter-renderers
+[2021-12-02 13:34:55.276] [sharedprocess] [info] Renamed to /home/aadi/.vscode-insiders/extensions/ms-toolsai.jupyter-renderers-1.0.4
+[2021-12-02 13:34:55.276] [sharedprocess] [info] Extracting completed. ms-toolsai.jupyter-renderers
+[2021-12-02 13:34:57.539] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter /home/aadi/.config/Code - Insiders/CachedExtensionVSIXs/ms-toolsai.jupyter-2021.11.1001529796
+[2021-12-02 13:34:57.788] [sharedprocess] [info] Extracted extension to /home/aadi/.vscode-insiders/extensions/.4a987e1b-f41f-4654-81ad-fcb5439dabe5: ms-toolsai.jupyter
+[2021-12-02 13:34:57.799] [sharedprocess] [info] Renamed to /home/aadi/.vscode-insiders/extensions/ms-toolsai.jupyter-2021.11.1001529796
+[2021-12-02 13:34:57.800] [sharedprocess] [info] Extracting completed. ms-toolsai.jupyter
+[2021-12-02 13:34:57.802] [sharedprocess] [info] Extension installed successfully: ms-toolsai.jupyter-keymap
+[2021-12-02 13:34:57.802] [sharedprocess] [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+[2021-12-02 13:34:57.802] [sharedprocess] [info] Extension installed successfully: ms-toolsai.jupyter
+[2021-12-02 13:35:10.036] [sharedprocess] [info] Installing extension: vscodevim.vim
+[2021-12-02 13:35:10.736] [sharedprocess] [info] Downloaded extension: vscodevim.vim /home/aadi/.config/Code - Insiders/CachedExtensionVSIXs/vscodevim.vim-1.21.10
+[2021-12-02 13:35:10.820] [sharedprocess] [info] Extracted extension to /home/aadi/.vscode-insiders/extensions/.c2febef7-d7fb-4b2e-b419-9c92e8c772e0: vscodevim.vim
+[2021-12-02 13:35:10.829] [sharedprocess] [info] Renamed to /home/aadi/.vscode-insiders/extensions/vscodevim.vim-1.21.10
+[2021-12-02 13:35:10.830] [sharedprocess] [info] Extracting completed. vscodevim.vim
+[2021-12-02 13:35:10.831] [sharedprocess] [info] Extension installed successfully: vscodevim.vim
+[2021-12-02 13:35:18.407] [sharedprocess] [info] Installing extension: ms-python.python
+[2021-12-02 13:35:18.933] [sharedprocess] [info] Installing extension: ms-python.vscode-pylance
+[2021-12-02 13:35:21.554] [sharedprocess] [info] Downloaded extension: ms-python.python /home/aadi/.config/Code - Insiders/CachedExtensionVSIXs/ms-python.python-2021.11.1422169775
+[2021-12-02 13:35:22.309] [sharedprocess] [info] Extracted extension to /home/aadi/.vscode-insiders/extensions/.2f18808d-cb40-40b4-8de7-782079804f30: ms-python.python
+[2021-12-02 13:35:22.322] [sharedprocess] [info] Renamed to /home/aadi/.vscode-insiders/extensions/ms-python.python-2021.11.1422169775
+[2021-12-02 13:35:22.323] [sharedprocess] [info] Extracting completed. ms-python.python
+[2021-12-02 13:35:25.583] [sharedprocess] [info] Downloaded extension: ms-python.vscode-pylance /home/aadi/.config/Code - Insiders/CachedExtensionVSIXs/ms-python.vscode-pylance-2021.11.2
+[2021-12-02 13:35:26.582] [sharedprocess] [info] Extracted extension to /home/aadi/.vscode-insiders/extensions/.726f8a4c-59de-47c3-9f62-45d5375170a2: ms-python.vscode-pylance
+[2021-12-02 13:35:26.599] [sharedprocess] [info] Renamed to /home/aadi/.vscode-insiders/extensions/ms-python.vscode-pylance-2021.11.2
+[2021-12-02 13:35:26.599] [sharedprocess] [info] Extracting completed. ms-python.vscode-pylance
+[2021-12-02 13:35:26.602] [sharedprocess] [info] Extension installed successfully: ms-python.python
+[2021-12-02 13:35:26.602] [sharedprocess] [info] Extension installed successfully: ms-python.vscode-pylance
+[2021-12-02 13:35:27.347] [sharedprocess] [info] Installing extension: equinusocio.vsc-community-material-theme
+[2021-12-02 13:35:27.777] [sharedprocess] [info] Downloaded extension: equinusocio.vsc-community-material-theme /home/aadi/.config/Code - Insiders/CachedExtensionVSIXs/equinusocio.vsc-community-material-theme-1.4.4
+[2021-12-02 13:35:27.786] [sharedprocess] [info] Extracted extension to /home/aadi/.vscode-insiders/extensions/.687ec1ee-7c44-4cd6-9429-22613e48a8ab: equinusocio.vsc-community-material-theme
+[2021-12-02 13:35:27.790] [sharedprocess] [info] Renamed to /home/aadi/.vscode-insiders/extensions/equinusocio.vsc-community-material-theme-1.4.4
+[2021-12-02 13:35:27.790] [sharedprocess] [info] Extracting completed. equinusocio.vsc-community-material-theme
+[2021-12-02 13:35:27.791] [sharedprocess] [info] Extension installed successfully: equinusocio.vsc-community-material-theme
+[2021-12-02 13:35:28.587] [sharedprocess] [info] Installing extension: pkief.material-icon-theme
+[2021-12-02 13:35:29.058] [sharedprocess] [info] Downloaded extension: pkief.material-icon-theme /home/aadi/.config/Code - Insiders/CachedExtensionVSIXs/pkief.material-icon-theme-4.11.0
+[2021-12-02 13:35:29.264] [sharedprocess] [info] Extracted extension to /home/aadi/.vscode-insiders/extensions/.b416179e-a567-43b2-bd39-a62ccad99009: pkief.material-icon-theme
+[2021-12-02 13:35:29.272] [sharedprocess] [info] Renamed to /home/aadi/.vscode-insiders/extensions/pkief.material-icon-theme-4.11.0
+[2021-12-02 13:35:29.273] [sharedprocess] [info] Extracting completed. pkief.material-icon-theme
+[2021-12-02 13:35:29.273] [sharedprocess] [info] Extension installed successfully: pkief.material-icon-theme

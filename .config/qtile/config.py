@@ -90,12 +90,20 @@ keys = [
     Key([mod], "w", lazy.window.kill(), desc="Kill focused window"),
 
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
-    Key([mod], "r", lazy.spawncmd(), desc="Spawn command rompt"),
+    # Replaced by dmenu
+    # Key([mod], "r", lazy.spawncmd(), desc="Spawn command rompt"),
     # custom applications
 
-    # Key([mod], "r", lazy.spawn("dmenu_run -p 'Run: '    ")),
+    Key([mod], 'r', lazy.run_extension(extension.DmenuRun(
+        dmenu_prompt=">>>",
+        background="#15181a",
+        foreground= "#00ff00",
+        selected_background="#079822",
+        selected_foreground="#fff",
+    ))),
     Key([mod], "b", lazy.spawn("brave"), desc="Open brave browser"),
     Key([mod], "f", lazy.spawn("nautilus"), desc="Open File manager"),
+    Key([mod], "s", lazy.spawn("/home/aadi/.scripts/search.sh"), desc="Search"),
     # Key([mod], "space", lazy.spawn("emacs"), desc="Open EMACS"),
 
     # Screenshot
@@ -174,15 +182,18 @@ screens = [
             [
                 widget.CurrentLayout(background="#000000", foreground="#FFFFFF"),
                 widget.GroupBox(
+                    font="Goldman-Sans",
                     foreground="#000000",
                     background="#FFFFFF", 
                     active="#000000",
                     inactive="#AAAAAA",
-                    highlight_method="border",
-                    other_current_screen_border="#FF006E",
-                    other_screen_border="#FF006E",
+                    block_highlight_text_color="#FFFFFF",
+                    highlight_method="block",
+                    other_current_screen_border="#8338ec",
+                    other_screen_border="#8338EC",
                     this_current_screen_border="#FF006E",
                     this_screen_border="#FF006E",
+                    margin=3,
                     ),
                 widget.Prompt(background="#ff006e"),
                 widget.WindowName(**widget_defaults),
@@ -201,7 +212,7 @@ screens = [
                 widget.CPUGraph(graph_color="#80ffdb", **widget_defaults),
                 widget.MemoryGraph(graph_color="#fb5607", type="box", **widget_defaults),
                 widget.ThermalSensor(**widget_defaults),
-                widget.Wlan(**widget_defaults),
+                widget.Net(interface="wlp5s0", format='{down}↓ {up}↑', **widget_defaults),
                 widget.Systray(),
                 widget.Volume(background="#3a86ff"),
                 widget.Clock(format='%Y-%m-%d %a %H:%M')
