@@ -1,5 +1,0 @@
-[2021-12-03 06:45:20.963] [sharedprocess] [info] Starting worker process with pid 494671 (type: watcherServiceParcelSharedProcess, window: 1).
-[2021-12-03 06:45:21.072] [sharedprocess] [info] Deleted from disk ms-toolsai.jupyter /home/aadi/.vscode-insiders/extensions/ms-toolsai.jupyter-2021.11.1001529796
-[2021-12-03 06:45:21.249] [sharedprocess] [info] Deleted from disk ms-python.vscode-pylance /home/aadi/.vscode-insiders/extensions/ms-python.vscode-pylance-2021.11.2
-[2021-12-03 06:45:21.250] [sharedprocess] [info] Deleted from disk ms-python.python /home/aadi/.vscode-insiders/extensions/ms-python.python-2021.11.1422169775
-[2021-12-03 06:45:27.370] [sharedprocess] [info] Worker process with pid 494671 terminated normally (type: watcherServiceParcelSharedProcess, window: 1).

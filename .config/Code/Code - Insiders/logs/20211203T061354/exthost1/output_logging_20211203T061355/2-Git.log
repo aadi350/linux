@@ -1,6 +1,0 @@
-Validating found git in: git
-Using git 2.34.0 from git
-> git rev-parse --git-dir
-Open repository: /mnt/storage/projects/fire-bot
-> git status -z -u
-> git symbolic-ref --short HEAD

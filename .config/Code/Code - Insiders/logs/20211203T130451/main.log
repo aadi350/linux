@@ -1,9 +1,0 @@
-[2021-12-03 13:04:51.463] [main] [info] update#setState idle
-[2021-12-03 13:04:51.479] [main] [info] ExtensionHostStarterWorker created
-[2021-12-03 13:04:52.128] [main] [info] Starting extension host with pid 754516 (fork() took 5 ms).
-[2021-12-03 13:05:21.463] [main] [info] update#setState checking for updates
-[2021-12-03 13:05:21.660] [main] [info] update#setState idle
-[2021-12-03 14:05:21.466] [main] [info] update#setState checking for updates
-[2021-12-03 14:05:22.318] [main] [info] update#setState idle
-[2021-12-03 14:22:16.267] [main] [info] Waiting for extension host with pid 754516 to exit.
-[2021-12-03 14:22:16.465] [main] [info] Extension host with pid 754516 exited with code: 0, signal: null.
