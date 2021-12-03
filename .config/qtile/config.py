@@ -64,7 +64,7 @@ keys = [
     Key([mod, "shift"], "j", lazy.layout.shuffle_down(),
         desc="Move window down"),
     Key([mod, "shift"], "k", lazy.layout.shuffle_up(), desc="Move window up"),
-
+    Key([], "F2",lazy.window.toggle_fullscreen() , desc="Make window fullscreen"),
     # Grow windows. If current window is on the edge of screen and direction
     # will be to screen edge - window would shrink.
     Key([mod, "control"], "h", lazy.layout.grow_left(),
