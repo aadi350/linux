@@ -64,7 +64,7 @@ keys = [
     Key([mod, "shift"], "j", lazy.layout.shuffle_down(),
         desc="Move window down"),
     Key([mod, "shift"], "k", lazy.layout.shuffle_up(), desc="Move window up"),
-    Key([], "F2",lazy.window.toggle_fullscreen() , desc="Make window fullscreen"),
+
     # Grow windows. If current window is on the edge of screen and direction
     # will be to screen edge - window would shrink.
     Key([mod, "control"], "h", lazy.layout.grow_left(),
@@ -95,10 +95,10 @@ keys = [
     # custom applications
 
     Key([mod], 'r', lazy.run_extension(extension.DmenuRun(
-        dmenu_prompt=">>>",
-        background="#15181a",
-        foreground= "#00ff00",
-        selected_background="#079822",
+        dmenu_prompt="🡲",
+        background= "#000", #"#15181a",
+        foreground= "#AAA",
+        selected_background="#8338EC",#"#079822",
         selected_foreground="#fff",
     ))),
     Key([mod], "b", lazy.spawn("brave"), desc="Open brave browser"),
