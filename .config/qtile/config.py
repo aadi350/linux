@@ -98,10 +98,13 @@ keys = [
     Key([mod], "f", lazy.spawn("nautilus"), desc="Open File manager"),
     # Key([mod], "space", lazy.spawn("emacs"), desc="Open EMACS"),
 
+    # Screenshot
+    Key([mod], "p", lazy.spawn("scrot /home/aadi/Pictures/screenshots/%Y%m%d_%H:%M:%S.png")),
+
     # accounting for second monitor
-    Key([mod], "u",
-        lazy.to_screen(0)),
     Key([mod], "i",
+        lazy.to_screen(0)),
+    Key([mod], "u",
         lazy.to_screen(1))
 ]
 
