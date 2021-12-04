@@ -94,7 +94,7 @@ keys = [
     # Key([mod], "r", lazy.spawncmd(), desc="Spawn command rompt"),
     # custom applications
 
-    Key([mod], 'r', lazy.run_extension(extension.DmenuRun(
+    Key([mod, "shift"], "Return", lazy.run_extension(extension.DmenuRun(
         dmenu_prompt="🡲",
         background= "#000", #"#15181a",
         foreground= "#AAA",
