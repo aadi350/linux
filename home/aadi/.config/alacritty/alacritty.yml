@@ -7,8 +7,8 @@ draw_bold_text_with_bright_colors: true
 
 font:
   normal:
-    family: inconsolata
-  size: 13.0
+    family: Inconsolata
+  size: 15.0
 
 # Cyberpunk-Neon colours
 colors:

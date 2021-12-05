@@ -104,8 +104,9 @@ keys = [
     Key([mod], "b", lazy.spawn("brave"), desc="Open brave browser"),
     Key([mod], "f", lazy.spawn("nautilus"), desc="Open File manager"),
     Key([mod], "s", lazy.spawn("/home/aadi/.scripts/search.sh"), desc="Search"),
+    Key([mod], "m", lazy.spawn("evolution"), desc="Mail"),
+    Key([], "F2",  lazy.window.toggle_fullscreen(),desc="Toggle Fullscreen"),
     # Key([mod], "space", lazy.spawn("emacs"), desc="Open EMACS"),
-
     # Screenshot
     Key([mod], "p", lazy.spawn("scrot /home/aadi/Pictures/screenshots/%Y%m%d_%H:%M:%S.png")),
 
@@ -172,11 +173,12 @@ widget_defaults = dict(
     font="hack",
     fontsize=14,
     padding=3,
-    background="#003566"
+    background="#000b1e"
 )
 extension_defaults = widget_defaults.copy()
 
 screens = [
+    # Screen(),
     Screen(
         bottom=bar.Bar(
             [
