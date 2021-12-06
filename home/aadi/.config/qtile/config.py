@@ -108,7 +108,7 @@ keys = [
     Key([], "F2",  lazy.window.toggle_fullscreen(),desc="Toggle Fullscreen"),
     # Key([mod], "space", lazy.spawn("emacs"), desc="Open EMACS"),
     # Screenshot
-    Key([mod], "p", lazy.spawn("scrot /home/aadi/Pictures/screenshots/%Y%m%d_%H:%M:%S.png")),
+    Key([mod], "p", lazy.spawn("flameshot gui")),
 
     # accounting for second monitor
     Key([mod], "i",
@@ -224,7 +224,7 @@ screens = [
             # border_color=["ff00ff", "000000", "ff00ff", "000000"]  # Borders are magenta
         ),
     ),
-    Screen()
+    #Screen()
 ]
 
 # Drag floating layouts.
