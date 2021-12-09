@@ -90,6 +90,7 @@ keys = [
     Key([mod], "w", lazy.window.kill(), desc="Kill focused window"),
 
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
+    Key([mod, "shift"], "s", lazy.spawn('systemctl suspend'), desc="Suspend system"),
     # Replaced by dmenu
     # Key([mod], "r", lazy.spawncmd(), desc="Spawn command rompt"),
     # custom applications
@@ -210,6 +211,12 @@ screens = [
                     color_break='#fb5607',
                     color_inactive='#FFFFFF',
                     length_pomodori=45
+                ),
+                widget.Pomodoro(
+                    color_active='#f3a86f',
+                    color_break='#fb5607',
+                    color_inactive='#FFFFFF',
+                    length_pomodori=30
                 ),
                 widget.CPUGraph(graph_color="#80ffdb", **widget_defaults),
                 widget.MemoryGraph(graph_color="#fb5607", type="box", **widget_defaults),
