@@ -161,8 +161,10 @@ layouts = [
     layout.Stack(num_stacks=2, **layouts_config),
     # layout.Bsp(),
     # layout.Matrix(),
-    layout.MonadTall(**layouts_config),
+    # layout.MonadTall(**layouts_config),
     # layout.MonadWide(),
+
+    # layout.Floating(**layouts_config),
     # layout.RatioTile(),
     # layout.Tile(),
     # layout.TreeTab(**layouts_config)
