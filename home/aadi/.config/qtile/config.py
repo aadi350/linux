@@ -125,8 +125,8 @@ group_names = [
 	("D", {}),
     ("emacs", {}),
 	("mail", {}),
-	("cal", {}),
-	("notion", {})
+	("TBD", {}),
+	("plan", {})
 ]
 
 
