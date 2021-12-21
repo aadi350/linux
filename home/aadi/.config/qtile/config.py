@@ -39,6 +39,11 @@ def autostart():
     home = os.path.expanduser('~/.config/qtile/autostart.sh')
     subprocess.call([home])
 
+@hook.subscribe.client_new
+def client_new(client):
+    if client.name == 'slack':
+        client.togroup('mail')
+
 mod = "mod1"
 terminal = "alacritty"
 
@@ -102,7 +107,7 @@ keys = [
         selected_background="#8338EC",#"#079822",
         selected_foreground="#fff",
     ))),
-    Key([mod], "b", lazy.spawn("brave"), desc="Open brave browser"),
+    Key([mod], "b", lazy.spawn("vivaldi-stable"), desc="Open browser"),
     Key([mod], "f", lazy.spawn("nautilus"), desc="Open File manager"),
     Key([mod], "s", lazy.spawn("/home/aadi/.scripts/search.sh"), desc="Search"),
     Key([mod], "m", lazy.spawn("evolution"), desc="Mail"),
@@ -119,11 +124,11 @@ keys = [
 ]
 
 group_names = [
-	("A", {}),
-	("B", {}),
-	("C", {}),
-	("D", {}),
-    ("editor", {}),
+	("code", {}),
+	("www", {}),
+	("files", {}),
+	("4", {}),
+    ("5", {}),
 	("mail", {}),
 	("TBD", {}),
 	("plan", {})
@@ -212,7 +217,7 @@ screens = [
                     color_active='#f3a86f',
                     color_break='#fb5607',
                     color_inactive='#FFFFFF',
-                    length_pomodori=45
+                    length_pomodori=90
                 ),
                 widget.Pomodoro(
                     color_active='#f3a86f',
