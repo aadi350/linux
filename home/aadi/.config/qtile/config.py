@@ -186,7 +186,6 @@ widget_defaults = dict(
 extension_defaults = widget_defaults.copy()
 
 screens = [
-    # Screen(),
     Screen(
         bottom=bar.Bar(
             [
@@ -238,7 +237,17 @@ screens = [
             # border_color=["ff00ff", "000000", "ff00ff", "000000"]  # Borders are magenta
         ),
     ),
-    #Screen()
+    Screen(bottom=bar.Bar([
+            widget.CurrentLayout(background="#FFFFFF", foreground="#000000"),
+            widget.WindowName(**widget_defaults),
+        ],
+            24, border_width=[4,4,4,4]))
+    # Screen(bottom=bar.Bar(
+    #         [
+    #             widget.CurrentLayout(background="#000000", foreground="#FFFFFF")
+    #         ]
+    #     )
+    # )
 ]
 
 # Drag floating layouts.
