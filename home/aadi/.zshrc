@@ -31,4 +31,4 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-export PATH="/usr/bin/dataspell/bin/:$PATH"
+export PATH="/home/aadi/.emacs.d/bin/:/usr/bin/dataspell/bin/:$PATH"

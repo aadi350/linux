@@ -41,7 +41,7 @@ def autostart():
 
 @hook.subscribe.client_new
 def client_new(client):
-    if client.name == 'slack':
+    if client.name == 'evolution':
         client.togroup('mail')
 
 mod = "mod1"
@@ -108,6 +108,7 @@ keys = [
         selected_foreground="#fff",
     ))),
     Key([mod], "b", lazy.spawn("vivaldi-stable"), desc="Open browser"),
+    Key([mod], "e", lazy.spawn("emacs"), desc="Launch editor"),
     Key([mod], "f", lazy.spawn("nautilus"), desc="Open File manager"),
     Key([mod], "s", lazy.spawn("/home/aadi/.scripts/search.sh"), desc="Search"),
     Key([mod], "m", lazy.spawn("evolution"), desc="Mail"),
@@ -128,9 +129,8 @@ group_names = [
 	("www", {}),
 	("files", {}),
 	("pdf", {}),
-    ("5", {}),
-	("mail", {}),
-	("TBD", {}),
+    ("mail", {}),
+	("yt", {}),
 	("plan", {})
 ]
 
