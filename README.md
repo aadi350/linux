@@ -18,6 +18,9 @@ If you don't know where your `$HOME` directory is, this isn't for you.
 
 ## Doom Emacs
 ![Screenshot](assets/doom-emacs.png)
+My **emacs** configuration depends near completely on [Doom](https://github.com/hlissner/doom-emacs), as shown above. Syntax highlighting is turned on, I use [neotree](https://github.com/hlissner/doom-emacs) for the file-tree, and have a list of plugins enabled in my [doom config](.doom.d)
 
-
-## Custom Update Files
+## Other Configuration Files
+- qtile: configured to auto-start particular programs, and looks like the interface as shown above
+- bin: custom homepage configured to point to personal webpages (requires authentication)
+- local/bin: scripts to keep this repo updated

@@ -30,3 +30,5 @@ sudo cp -r ./.doom.d/* ~/.doom.d/
 sudo cp -r ./home/aadi/* ~/
 sudo cp -r ./usr/ /usr/
 sudo cp -r ~/linux/usr/local/bin/* /usr/local/bin/
+
+sudo doom sync
