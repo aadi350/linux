@@ -130,6 +130,7 @@ group_names = [
 	("files", {}),
 	("pdf", {}),
     ("mail", {}),
+    ("writing", {}),
 	("yt", {}),
 	("plan", {})
 ]
