@@ -165,9 +165,9 @@ layouts = [
     layout.Max(**layouts_config),
     # Try more layouts by unleashing below layouts.
     layout.Stack(num_stacks=2, **layouts_config),
-    # layout.Bsp(),
+    layout.Bsp(),
     # layout.Matrix(),
-    # layout.MonadTall(**layouts_config),
+    layout.MonadTall(**layouts_config),
     # layout.MonadWide(),
 
     # layout.Floating(**layouts_config),
@@ -228,6 +228,7 @@ screens = [
                 widget.CPUGraph(graph_color="#80ffdb", **widget_defaults),
                 widget.MemoryGraph(graph_color="#fb5607", type="box", **widget_defaults),
                 widget.ThermalSensor(**widget_defaults),
+                widget.NvidiaSensors(**widget_defaults),
                 widget.Net(interface="wlp5s0", format='{down}↓ {up}↑', **widget_defaults),
                 widget.Systray(),
                 widget.Volume(background="#3a86ff"),
