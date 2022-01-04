@@ -21,6 +21,6 @@ rsync --update -raz --progress /home/aadi/.doom.d/ /home/aadi/linux/home/aadi/.d
 sudo rsync --update -raz --progress /usr/bin/homepage /home/aadi/linux/usr/bin/
 sudo rsync --update -raz --progress /usr/local/bin/update.sh /home/aadi/linux/usr/local/bin/update.sh
 sudo rsync --update -raz --progress /usr/local/bin/pull-update.sh /home/aadi/linux/usr/local/bin/pull-update.sh
-sudo rsync --update -raz --progress /usr/local/bin/search.sh /home/aadi/linux/usr/local/bin/search.sh
+sudo rsync --update -raz --progress /home/aadi/.scripts/search.sh /home/aadi/linux/usr/local/bin/search.sh
 
 cd /home/aadi/linux && git add . && git commit -m "$MSG" && git push origin main

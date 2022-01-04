@@ -6,7 +6,8 @@ DMBROWSER="vivaldi-stable"
 declare -a options=(
     "arxiv - https://arxiv.org/search/?searchtype=all&source=header&query="
     "google - https://www.google.com/search?q="
-    "scholar - https://scholar.google.com/scholar?q="
+    "scholar - https://scholar.google.com/scholar?hl=en&q="
+    "paperswithcode - https://paperswithcode.com/search?q_meta=&q_type=&q="
 )
 
 while [ -z "$engine" ]; do
