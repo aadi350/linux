@@ -115,7 +115,7 @@ keys = [
     Key([], "F2",  lazy.window.toggle_fullscreen(),desc="Toggle Fullscreen"),
     # Key([mod], "space", lazy.spawn("emacs"), desc="Open EMACS"),
     # Screenshot
-    Key([mod], "p", lazy.spawn("flameshot gui")),
+    Key([mod], "p", lazy.spawn("flameshot gui -p /home/aadi/Pictures/screenshots")),
 
     # accounting for second monitor
     Key([mod], "i",
@@ -165,7 +165,7 @@ layouts = [
     layout.Max(**layouts_config),
     # Try more layouts by unleashing below layouts.
     layout.Stack(num_stacks=2, **layouts_config),
-    layout.Bsp(),
+    layout.Bsp(**layouts_config),
     # layout.Matrix(),
     layout.MonadTall(**layouts_config),
     # layout.MonadWide(),
@@ -173,7 +173,7 @@ layouts = [
     # layout.Floating(**layouts_config),
     # layout.RatioTile(),
     # layout.Tile(),
-    # layout.TreeTab(**layouts_config)
+    layout.TreeTab(**layouts_config)
     # layout.VerticalTile(),
     # layout.Zoomy(),
 ]
@@ -213,23 +213,30 @@ screens = [
                     },
                     name_transform=lambda name: name.upper(),
                 ),
-                widget.Pomodoro(
-                    color_active='#f3a86f',
-                    color_break='#fb5607',
-                    color_inactive='#FFFFFF',
-                    length_pomodori=90
+                widget.TextBox(
+                    text='DW 🡲',
                 ),
                 widget.Pomodoro(
                     color_active='#f3a86f',
                     color_break='#fb5607',
-                    color_inactive='#FFFFFF',
-                    length_pomodori=30
+                    color_inactive='#444444',
+                    length_pomodori=90
+                ),
+                widget.TextBox(
+                    text='45 🡲',
+                ),
+                widget.Pomodoro(
+                    color_active='#f3a86f',
+                    color_break='#fb5607',
+                    color_inactive='#444444',
+                    length_pomodori=45
                 ),
                 widget.CPUGraph(graph_color="#80ffdb", **widget_defaults),
                 widget.MemoryGraph(graph_color="#fb5607", type="box", **widget_defaults),
                 widget.ThermalSensor(**widget_defaults),
                 widget.NvidiaSensors(**widget_defaults),
-                widget.Net(interface="wlp5s0", format='{down}↓ {up}↑', **widget_defaults),
+                # widget.Net(interface="wlp5s0", format='{down}↓ {up}↑', **widget_defaults),
+                widget.Wlan(**widget_defaults),
                 widget.Systray(),
                 widget.Volume(background="#3a86ff"),
                 widget.Clock(format='%Y-%m-%d %a %H:%M')
