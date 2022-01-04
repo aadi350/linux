@@ -213,11 +213,12 @@ screens = [
                     },
                     name_transform=lambda name: name.upper(),
                 ),
+                widget.Canto(),
                 widget.TextBox(
                     text='DW 🡲',
                 ),
                 widget.Pomodoro(
-                    color_active='#f3a86f',
+                    color_active='#06d6a0',
                     color_break='#fb5607',
                     color_inactive='#444444',
                     length_pomodori=90
@@ -226,7 +227,7 @@ screens = [
                     text='45 🡲',
                 ),
                 widget.Pomodoro(
-                    color_active='#f3a86f',
+                    color_active='#06d6a0',
                     color_break='#fb5607',
                     color_inactive='#444444',
                     length_pomodori=45
