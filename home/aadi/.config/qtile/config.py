@@ -107,7 +107,7 @@ keys = [
         selected_background="#8338EC",#"#079822",
         selected_foreground="#fff",
     ))),
-    Key([mod], "b", lazy.spawn("vivaldi-stable"), desc="Open browser"),
+    Key([mod], "b", lazy.spawn("brave"), desc="Open browser"),
     Key([mod], "e", lazy.spawn("emacs"), desc="Launch editor"),
     Key([mod], "f", lazy.spawn("nautilus"), desc="Open File manager"),
     Key([mod], "s", lazy.spawn("/home/aadi/.scripts/search.sh"), desc="Search"),
