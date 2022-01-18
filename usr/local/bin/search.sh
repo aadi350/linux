@@ -1,13 +1,11 @@
 #!/usr/bin/bash
 
 
-DMBROWSER="vivaldi-stable"
+DMBROWSER="brave"
 
 declare -a options=(
     "arxiv - https://arxiv.org/search/?searchtype=all&source=header&query="
     "google - https://www.google.com/search?q="
-    "scholar - https://scholar.google.com/scholar?hl=en&q="
-    "paperswithcode - https://paperswithcode.com/search?q_meta=&q_type=&q="
 )
 
 while [ -z "$engine" ]; do
@@ -20,4 +18,4 @@ while [ -z "$query" ]; do
     query=$(dmenu -i -l 20 -p "Searching:") || exit
 done
 
-vivaldi-stable "$engineurl""$query"
+brave "$engineurl""$query"

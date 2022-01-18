@@ -79,6 +79,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
 	git
+	k
 	zsh-autosuggestions
 	zsh-syntax-highlighting
 )
@@ -115,7 +116,7 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
-export PATH="$PATH:/home/aadi/miniconda3/bin"
+export PATH="$PATH:/home/aadi/miniconda3/bin:/home/aadi/.scripts"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!

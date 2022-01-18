@@ -80,7 +80,7 @@ keys = [
         desc="Grow window down"),
     Key([mod, "control"], "k", lazy.layout.grow_up(), desc="Grow window up"),
     Key([mod], "n", lazy.layout.normalize(), desc="Reset all window sizes"),
-
+    
     # Toggle between split and unsplit sides of stack.
     # Split = all windows displayed
     # Unsplit = 1 window displayed, like Max layout, but still with
@@ -100,6 +100,7 @@ keys = [
     # Key([mod], "r", lazy.spawncmd(), desc="Spawn command rompt"),
     # custom applications
 
+    
     Key([mod, "shift"], "Return", lazy.run_extension(extension.DmenuRun(
         dmenu_prompt="🡲",
         background= "#000", #"#15181a",
