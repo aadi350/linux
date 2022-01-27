@@ -133,7 +133,8 @@ group_names = [
     ("mail", {}),
     ("writing", {}),
 	("yt", {}),
-	("plan", {})
+	("plan", {}),
+	("remote", {})
 ]
 
 
@@ -214,7 +215,7 @@ screens = [
                     },
                     name_transform=lambda name: name.upper(),
                 ),
-                widget.Canto(),
+                widget.Canto(update_interval=10),
                 widget.TextBox(
                     text='DW 🡲',
                 ),
