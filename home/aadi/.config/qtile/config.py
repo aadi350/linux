@@ -117,7 +117,7 @@ keys = [
     # Key([mod], "space", lazy.spawn("emacs"), desc="Open EMACS"),
     # Screenshot
     Key([mod], "p", lazy.spawn("flameshot gui -p /home/aadi/Pictures/screenshots")),
-
+    Key([], "F3", lazy.spawn("gio open https://colab.research.google.com/drive/1hEPZ5TGc_UacpDlR2LnAkIgYhXqF7tGW")),
     # accounting for second monitor
     Key([mod], "i",
         lazy.to_screen(0)),
