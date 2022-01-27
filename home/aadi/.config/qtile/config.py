@@ -109,7 +109,7 @@ keys = [
         selected_foreground="#fff",
     ))),
     Key([mod], "b", lazy.spawn("brave"), desc="Open browser"),
-    Key([mod], "e", lazy.spawn("emacs"), desc="Launch editor"),
+    Key([mod], "e", lazy.spawn("emacs ~/.config"), desc="Launch editor in config"),
     Key([mod], "f", lazy.spawn("nautilus"), desc="Open File manager"),
     Key([mod], "s", lazy.spawn("/home/aadi/.scripts/search.sh"), desc="Search"),
     Key([mod], "m", lazy.spawn("evolution"), desc="Mail"),
@@ -118,6 +118,7 @@ keys = [
     # Screenshot
     Key([mod], "p", lazy.spawn("flameshot gui -p /home/aadi/Pictures/screenshots")),
     Key([], "F3", lazy.spawn("gio open https://colab.research.google.com/drive/1hEPZ5TGc_UacpDlR2LnAkIgYhXqF7tGW")),
+    Key([], "F4", lazy.spawn("code")),
     # accounting for second monitor
     Key([mod], "i",
         lazy.to_screen(0)),

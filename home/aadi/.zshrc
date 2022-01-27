@@ -116,7 +116,7 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
-export PATH="$PATH:/home/aadi/miniconda3/bin:/home/aadi/.scripts:/home/aadi/.emacs.d/bin"
+export PATH="$PATH:/home/aadi/miniconda3/bin:/home/aadi/.scripts:/home/aadi/.emacs.d/bin:/etc/opt/dataspell-2021.3.1/bin"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -131,5 +131,10 @@ else
     fi
 fi
 unset __conda_setup
+# ALIASES
+alias ls='k -ah'
+alias cact='conda activate'
+
+#
 # <<< conda initialize <<<
 setxkbmap us -option caps:swapescape
