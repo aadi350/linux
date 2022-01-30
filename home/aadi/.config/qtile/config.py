@@ -176,7 +176,7 @@ layouts = [
     # layout.Floating(**layouts_config),
     # layout.RatioTile(),
     # layout.Tile(),
-    layout.TreeTab(**layouts_config)
+    layout.TreeTab(place_right=True, panel_width=80, **layouts_config)
     # layout.VerticalTile(),
     # layout.Zoomy(),
 ]
