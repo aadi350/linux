@@ -111,6 +111,10 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias nvidia-smi="watch -d -n 0.5 nvidia-smi"
+alias ls='k -ah'
+alias cact='conda activate'
+
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
@@ -131,10 +135,7 @@ else
     fi
 fi
 unset __conda_setup
-# ALIASES
-alias ls='k -ah'
-alias cact='conda activate'
-
 #
 # <<< conda initialize <<<
 setxkbmap us -option caps:swapescape
+xrandr --dpi 85
