@@ -253,6 +253,10 @@ screens = [
     Screen(bottom=bar.Bar([
             widget.CurrentLayout(background="#FFFFFF", foreground="#000000"),
             widget.WindowName(**widget_defaults),
+            widget.Systray(),
+            widget.Volume(background="#3a86ff"),
+            widget.Clock(format='%Y-%m-%d %a %H:%M'),
+
         ],
             24, border_width=[4,4,4,4]))
     # Screen(bottom=bar.Bar(
